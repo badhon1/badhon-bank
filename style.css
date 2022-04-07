@@ -1,0 +1,32 @@
+body{
+    padding: 100px;
+    
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+}
+.submit-area{
+    margin-top: 100px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px;
+    border-radius: 20px;
+}
+#tansaction-area{
+    display: none;
+}
+.deposit{
+    background-color: salmon;
+}
+.withdrow{
+    background-color: aqua;
+}
+.balance{
+    background-color: orange;
+}
+.style-element{
+    margin: 5px 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
