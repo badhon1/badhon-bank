@@ -30,37 +30,38 @@
             <div class="col-md-4">
                 <div class="deposit style-element">
                     <h5>deposit</h5>
-                    <h2>$00</h2>
+                    <h2>$<span id="depositAmount">00</span></h2>
                 </div>
             </div>
             <div class="col-md-4">   
                 <div class="withdrow style-element">
                     <h5>Withdrow</h5>
-                    <h2>$00</h2>
+                    <h2>$ <span id="withdrowAmount">00</span></h2>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="balance style-element">
                     <h5>Balance</h5>
-                    <h2>$1240</h2>   
+                    <h2>$<span id="balanceAmount">100</span></h2>   
                 </div>
             </div>
         </div>
+
  <div class="row">
         <div class="col-md-6">
             <div class="submit-area">
-                <h4>deposit</h4>
-            <input class="form-control" type="text" placeholder="$enter you Amount">
+                <h4>Deposit</h4>
+            <input id="inputDepositAmount" class="form-control" type="text" placeholder="$enter you Amount">
             <br>
-            <button class="btn btn-success">deposit</button>
+            <button id="depositaddBtn" class="btn btn-success">deposit</button>
             </div>
         </div>
         <div class="col-md-6">
             <div class="submit-area">
                 <h4>withdrow</h4>
-            <input class="form-control" type="text" placeholder="$enter you Amount">
+            <input id="inputWithdrowAmount" class="form-control" type="text" placeholder="$enter you Amount">
             <br>
-            <button class="btn btn-success">withdrow</button>
+            <button id="withdrowAddBtn" class="btn btn-success">withdrow</button>
             </div>
       </div>
  </div>
